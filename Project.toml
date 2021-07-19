@@ -1,0 +1,17 @@
+name = "OpenBLASHighCoreCount"
+uuid = "9163147b-84ef-44b6-bece-3de317e3b86c"
+authors = ["Mosè Giordano <mose@gnu.org>"]
+version = "1.0.0"
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+OpenBLASHighCoreCount_jll = "3a2d25a1-7f54-53f7-aded-df035e2fc6f8"
+
+[compat]
+julia = "1.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
